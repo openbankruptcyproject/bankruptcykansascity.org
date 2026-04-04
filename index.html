@@ -3,85 +3,243 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bankruptcy in Kansas City -- Free Data &amp; Resources | Open Bankruptcy Project</title>
-<meta name="description" content="Free bankruptcy data for Kansas City. W.D. Mo. has a 43.5% dismissal rate across 46,548 cases.">
+<title>Kansas City Bankruptcy Statistics -- Chapter 13 Dismissal Rates | Open Bankruptcy Project</title>
+<meta name="description" content="Kansas City straddles two federal districts with drastically different Chapter 13 outcomes. W.D. Mo. hit 93.5% dismissal in 2024. Data from 91,497 cases.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://bankruptcykansascity.org/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSBPNV4NKL"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-CSBPNV4NKL");</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CSBPNV4NKL');</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"What is the Chapter 13 dismissal rate in Kansas City?","acceptedAnswer":{"@type":"Answer","text":"Kansas City straddles two federal districts. The Western District of Missouri has a 43.5% overall dismissal rate that hit 93.5% in 2024. The District of Kansas has a healthier 31.4% rate."}},
+    {"@type":"Question","name":"Why is the Missouri side worse than Kansas?","acceptedAnswer":{"@type":"Answer","text":"W.D. Mo. dismissal rates have tripled from 35.5% in 2010 to 93.5% in 2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality."}},
+    {"@type":"Question","name":"How many Chapter 13 cases are filed in Kansas City?","acceptedAnswer":{"@type":"Answer","text":"Between 2008 and 2024, W.D. Mo. saw 46,548 Chapter 13 filings and D. Kansas saw 44,949, for a combined 91,497 cases across the metro area."}},
+    {"@type":"Question","name":"What is a 1328(f) violation?","acceptedAnswer":{"@type":"Answer","text":"Under 11 U.S.C. section 1328(f), debtors who received a prior discharge within specific timeframes cannot receive another discharge. An estimated 2,134 W.D. Mo. cases and 2,421 D. Kansas cases may involve potential violations."}}
+  ]
+}
+</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#e6edf3;background:#0d1117;line-height:1.6}
-.header{background:#0d1117;border-bottom:1px solid #30363d;padding:16px 0}
-.header-inner{max-width:1000px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center}
-.header a{color:#58a6ff;text-decoration:none;font-size:14px}
-.hero{background:linear-gradient(135deg,#0d1117 0%,#161b22 100%);padding:60px 20px;text-align:center;border-bottom:1px solid #30363d}
-.hero h1{font-size:2.5em;margin-bottom:16px;color:#f0f6fc}
-.hero .subtitle{font-size:1.2em;color:#8b949e;margin-bottom:30px}
-.stat-cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:30px}
-.stat-card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;min-width:200px;text-align:center}
-.stat-card .number{font-size:2.2em;font-weight:bold;color:#58a6ff}
-.stat-card .label{color:#8b949e;font-size:0.9em;margin-top:4px}
-.content{max-width:1000px;margin:0 auto;padding:40px 20px}
-.content h2{color:#f0f6fc;margin:40px 0 16px;font-size:1.8em;border-bottom:1px solid #30363d;padding-bottom:8px}
-.content p{color:#c9d1d9;margin-bottom:16px}
-table{width:100%;border-collapse:collapse;margin:20px 0;background:#161b22;border-radius:8px;overflow:hidden}
-th{background:#21262d;color:#f0f6fc;padding:12px 16px;text-align:left;font-weight:600}
-td{padding:12px 16px;border-top:1px solid #30363d;color:#c9d1d9}
-tr:hover td{background:#1c2128}
-.highlight{color:#f85149;font-weight:bold}
-.faq{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;margin:20px 0}
-.faq h3{color:#f0f6fc;margin-bottom:8px}
-.faq p{color:#8b949e}
-.cta{background:#161b22;border:1px solid #58a6ff;border-radius:8px;padding:30px;text-align:center;margin:40px 0}
-.cta a{display:inline-block;background:#58a6ff;color:#0d1117;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold;margin:8px}
-.network ul{list-style:none;display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
-.network a{color:#58a6ff;text-decoration:none;font-size:14px}
-.footer{background:#0d1117;border-top:1px solid #30363d;padding:30px 20px;text-align:center;color:#8b949e;font-size:14px}
-.footer a{color:#58a6ff;text-decoration:none}
-@media(max-width:600px){.hero h1{font-size:1.8em}.stat-cards{flex-direction:column;align-items:center}table{font-size:14px}}
+body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;line-height:1.6}
+a{color:#58a6ff;text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+nav{background:#161b22;border-bottom:1px solid #30363d;padding:12px 0;position:sticky;top:0;z-index:100}
+nav .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+nav .brand{color:#f0f6fc;font-weight:700;font-size:1.1rem}
+nav .links{display:flex;gap:16px;flex-wrap:wrap}
+nav .links a{color:#8b949e;font-size:0.9rem}nav .links a:hover{color:#58a6ff}
+.hero{padding:60px 0 40px;text-align:center;border-bottom:1px solid #30363d}
+.hero h1{color:#f0f6fc;font-size:2.4rem;margin-bottom:12px}
+.hero .subtitle{color:#8b949e;font-size:1.15rem;max-width:700px;margin:0 auto 24px}
+.hero .alert{background:#f8514920;border:1px solid #f85149;border-radius:8px;padding:16px 24px;display:inline-block;color:#f85149;font-weight:600;font-size:1.05rem}
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;padding:32px 0}
+.stat-card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;text-align:center}
+.stat-card .number{color:#58a6ff;font-size:2.2rem;font-weight:700}
+.stat-card .label{color:#8b949e;font-size:0.9rem;margin-top:4px}
+.stat-card.danger .number{color:#f85149}
+section{padding:40px 0;border-bottom:1px solid #21262d}
+h2{color:#f0f6fc;font-size:1.8rem;margin-bottom:16px}
+h3{color:#f0f6fc;font-size:1.3rem;margin-bottom:12px}
+p{margin-bottom:16px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;margin-bottom:20px}
+.chart-container{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;overflow-x:auto}
+.chart-title{color:#f0f6fc;font-size:1.1rem;margin-bottom:16px;font-weight:600}
+.district-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.district-card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px}
+.district-card h3{margin-bottom:8px;font-size:1.15rem}
+.district-card .rate{font-size:1.8rem;font-weight:700;color:#f85149}
+.district-card .meta{color:#8b949e;font-size:0.85rem;margin-top:8px}
+.faq-item{background:#161b22;border:1px solid #30363d;border-radius:8px;margin-bottom:12px;overflow:hidden}
+.faq-item summary{padding:16px 20px;cursor:pointer;color:#f0f6fc;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::after{content:"+";color:#58a6ff;font-size:1.3rem;font-weight:700}
+.faq-item[open] summary::after{content:"-"}
+.faq-item .answer{padding:0 20px 16px;color:#c9d1d9}
+.network{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:24px;margin:32px 0}
+.network h3{margin-bottom:12px}
+.network-links{display:flex;flex-wrap:wrap;gap:8px}
+.network-links a{background:#21262d;padding:6px 14px;border-radius:16px;font-size:0.85rem;border:1px solid #30363d}
+.network-links a:hover{border-color:#58a6ff;background:#161b22}
+footer{background:#161b22;border-top:1px solid #30363d;padding:32px 0;text-align:center;color:#8b949e;font-size:0.85rem}
+footer a{color:#58a6ff}footer p{margin-bottom:8px}
+.cta{display:inline-block;background:#238636;color:#fff;padding:12px 28px;border-radius:6px;font-weight:600;margin-top:12px;font-size:1rem}
+.cta:hover{background:#2ea043;text-decoration:none}
+ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
+@media(max-width:768px){.hero h1{font-size:1.7rem}.stats-row{grid-template-columns:1fr 1fr}.stat-card .number{font-size:1.6rem}}
+@media(max-width:480px){.stats-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="header"><div class="header-inner">
-<a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a>
-<a href="https://1328f.com">Free Discharge Screener</a>
+<nav><div class="container"><a href="/" class="brand">Bankruptcy Kansas City</a><div class="links"><a href="/">Home</a><a href="statistics.html">Statistics</a><a href="what-to-know.html">What to Know</a><a href="resources.html">Resources</a><a href="https://openbankruptcyproject.org">OBP</a></div></div></nav>
+
+<div class="hero"><div class="container">
+<h1>Kansas City Chapter 13 Bankruptcy Data</h1>
+<p class="subtitle">Kansas City straddles two federal districts with dramatically different outcomes. The Missouri side has seen dismissal rates triple since 2010 -- while Kansas remains significantly healthier.</p>
+<div class="alert">W.D. Mo.: 93.5% dismissal rate in 2024</div>
 </div></div>
-<div class="hero">
-<h1>Bankruptcy in Kansas City</h1>
-<p class="subtitle">Free data and resources from the Open Bankruptcy Project</p>
-<div class="stat-cards">
-<div class="stat-card"><div class="number">43.5%</div><div class="label">Dismissal Rate (W.D. Mo.)</div></div>
-<div class="stat-card"><div class="number">46,548</div><div class="label">Cases Filed (2008-2024)</div></div>
-<div class="stat-card"><div class="number">28.6%</div><div class="label">Prior Filing Rate</div></div>
-</div></div>
-<div class="content">
-<h2>District Data</h2>
-<p>All data from the Federal Judicial Center Integrated Database (2008-2024).</p>
-<table>
-<tr><th>District</th><th>Cases Filed</th><th>Dismissal Rate</th><th>Prior Filing Rate</th><th>Pro Se Rate</th></tr>
-<tr><td>W.D. Mo.</td><td>46,548</td><td>43.5%</td><td>28.6%</td><td>3.8%</td></tr>
-<tr><td>D. Kansas</td><td>44,949</td><td>31.4%</td><td>26.1%</td><td>1.6%</td></tr>
-</table>
-<h2>What This Means</h2>
-<p>A 43.5% dismissal rate means roughly 43 out of every 100 Chapter 13 cases in the W.D. Mo. end without a discharge. Dismissed debtors lose automatic stay protection, forfeit fees paid, and often end up worse off than before filing.</p>
-<p>High dismissal rates can signal systemic problems -- inadequate attorney preparation, unrealistic plans, or high-volume practices prioritizing filing speed over case quality.</p>
+
+<div class="container">
+<div class="stats-row">
+<div class="stat-card danger"><div class="number">43.5%</div><div class="label">WDMO Overall Rate</div></div>
+<div class="stat-card"><div class="number">46,548</div><div class="label">WDMO Cases Filed</div></div>
+<div class="stat-card"><div class="number">31.4%</div><div class="label">D. Kansas Rate</div></div>
+<div class="stat-card"><div class="number">44,949</div><div class="label">D. Kansas Cases</div></div>
+<div class="stat-card danger"><div class="number">93.5%</div><div class="label">WDMO 2024 Rate</div></div>
+<div class="stat-card"><div class="number">4,555</div><div class="label">Est. 1328(f) Violations</div></div>
+</div>
+</div>
+
+<section><div class="container">
+<h2>WDMO Dismissal Rate by Year (2008--2024)</h2>
+<div class="chart-container">
+<div class="chart-title">Chapter 13 Dismissal Rate -- Western District of Missouri</div>
+<svg viewBox="0 0 850 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;min-width:600px">
+<line x1="50" y1="30" x2="50" y2="280" stroke="#30363d" stroke-width="1"/>
+<line x1="50" y1="280" x2="830" y2="280" stroke="#30363d" stroke-width="1"/>
+<line x1="50" y1="230" x2="830" y2="230" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4"/>
+<line x1="50" y1="180" x2="830" y2="180" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4"/>
+<line x1="50" y1="130" x2="830" y2="130" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4"/>
+<line x1="50" y1="80" x2="830" y2="80" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4"/>
+<line x1="50" y1="30" x2="830" y2="30" stroke="#30363d" stroke-width="0.5" stroke-dasharray="4"/>
+<text x="45" y="284" fill="#8b949e" font-size="11" text-anchor="end">0%</text>
+<text x="45" y="234" fill="#8b949e" font-size="11" text-anchor="end">20%</text>
+<text x="45" y="184" fill="#8b949e" font-size="11" text-anchor="end">40%</text>
+<text x="45" y="134" fill="#8b949e" font-size="11" text-anchor="end">60%</text>
+<text x="45" y="84" fill="#8b949e" font-size="11" text-anchor="end">80%</text>
+<text x="45" y="34" fill="#8b949e" font-size="11" text-anchor="end">100%</text>
+<!-- 2008: 42.2% -->
+<rect x="56" y="174.5" width="40" height="105.5" rx="3" fill="#58a6ff" opacity="0.85"><title>2008: 42.2%</title></rect>
+<text x="76" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2008</text>
+<!-- 2009: 36.4% -->
+<rect x="102" y="189" width="40" height="91" rx="3" fill="#58a6ff" opacity="0.85"><title>2009: 36.4%</title></rect>
+<text x="122" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2009</text>
+<!-- 2010: 35.5% -->
+<rect x="148" y="191.25" width="40" height="88.75" rx="3" fill="#58a6ff" opacity="0.85"><title>2010: 35.5%</title></rect>
+<text x="168" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2010</text>
+<!-- 2011: 39.2% -->
+<rect x="194" y="182" width="40" height="98" rx="3" fill="#58a6ff" opacity="0.85"><title>2011: 39.2%</title></rect>
+<text x="214" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2011</text>
+<!-- 2012: 41.8% -->
+<rect x="240" y="175.5" width="40" height="104.5" rx="3" fill="#58a6ff" opacity="0.85"><title>2012: 41.8%</title></rect>
+<text x="260" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2012</text>
+<!-- 2013: 42.5% -->
+<rect x="286" y="173.75" width="40" height="106.25" rx="3" fill="#58a6ff" opacity="0.85"><title>2013: 42.5%</title></rect>
+<text x="306" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2013</text>
+<!-- 2014: 39.9% -->
+<rect x="332" y="180.25" width="40" height="99.75" rx="3" fill="#58a6ff" opacity="0.85"><title>2014: 39.9%</title></rect>
+<text x="352" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2014</text>
+<!-- 2015: 44.0% -->
+<rect x="378" y="170" width="40" height="110" rx="3" fill="#58a6ff" opacity="0.85"><title>2015: 44.0%</title></rect>
+<text x="398" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2015</text>
+<!-- 2016: 43.2% -->
+<rect x="424" y="172" width="40" height="108" rx="3" fill="#58a6ff" opacity="0.85"><title>2016: 43.2%</title></rect>
+<text x="444" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2016</text>
+<!-- 2017: 42.4% -->
+<rect x="470" y="174" width="40" height="106" rx="3" fill="#58a6ff" opacity="0.85"><title>2017: 42.4%</title></rect>
+<text x="490" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2017</text>
+<!-- 2018: 42.5% -->
+<rect x="516" y="173.75" width="40" height="106.25" rx="3" fill="#58a6ff" opacity="0.85"><title>2018: 42.5%</title></rect>
+<text x="536" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2018</text>
+<!-- 2019: 39.1% -->
+<rect x="562" y="182.25" width="40" height="97.75" rx="3" fill="#58a6ff" opacity="0.85"><title>2019: 39.1%</title></rect>
+<text x="582" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2019</text>
+<!-- 2020: 42.4% -->
+<rect x="608" y="174" width="40" height="106" rx="3" fill="#58a6ff" opacity="0.85"><title>2020: 42.4%</title></rect>
+<text x="628" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2020</text>
+<!-- 2021: 57.1% -->
+<rect x="654" y="137.25" width="40" height="142.75" rx="3" fill="#d29922" opacity="0.85"><title>2021: 57.1%</title></rect>
+<text x="674" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2021</text>
+<!-- 2022: 78.8% -->
+<rect x="700" y="83" width="40" height="197" rx="3" fill="#f85149" opacity="0.9"><title>2022: 78.8%</title></rect>
+<text x="720" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2022</text>
+<!-- 2023: 92.3% -->
+<rect x="746" y="49.25" width="40" height="230.75" rx="3" fill="#f85149" opacity="0.9"><title>2023: 92.3%</title></rect>
+<text x="766" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2023</text>
+<!-- 2024: 93.5% -->
+<rect x="792" y="46.25" width="40" height="233.75" rx="3" fill="#f85149" opacity="0.9"><title>2024: 93.5%</title></rect>
+<text x="812" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2024</text>
+</svg>
+</div>
+<p style="color:#8b949e;font-size:0.85rem;margin-top:8px">Source: Federal Judicial Center Integrated Database, 2008--2024. Analysis by Open Bankruptcy Project.</p>
+</div></section>
+
+<section><div class="container">
+<h2>Two Districts, Two Outcomes</h2>
+<div class="district-grid">
+<div class="district-card">
+<h3>Western District of Missouri</h3>
+<div class="rate">43.5%</div>
+<p>46,548 cases filed -- 16,844 dismissed, 21,878 discharged. 28.6% prior filer rate. Only 3.8% pro se. An estimated 2,134 potential 1328(f) violations. The 2024 rate of 93.5% represents a near-total collapse.</p>
+<div class="meta">Kansas City MO (400 E. 9th St)</div>
+</div>
+<div class="district-card">
+<h3>District of Kansas</h3>
+<div class="rate" style="color:#d29922">31.4%</div>
+<p>44,949 cases filed -- 11,748 dismissed, 25,615 discharged. 26.1% prior filer rate. Only 1.6% pro se. An estimated 2,421 potential 1328(f) violations. Significantly healthier outcomes.</p>
+<div class="meta">Kansas City KS (500 State Ave)</div>
+</div>
+</div>
+</div></section>
+
+<section><div class="container">
+<h2>The Kansas City Divide</h2>
+<div class="card">
+<h3>A Tale of Two State Lines</h3>
+<p>Kansas City consumers on opposite sides of State Line Road face dramatically different bankruptcy outcomes. The data reveals a troubling divergence:</p>
+<ul>
+<li><strong>Missouri side:</strong> 43.5% overall dismissal, surging to 93.5% in 2024</li>
+<li><strong>Kansas side:</strong> 31.4% overall dismissal, relatively stable</li>
+<li><strong>Missouri prior filer rate:</strong> 28.6% -- meaning nearly 1 in 3 has failed before</li>
+<li><strong>Missouri trend:</strong> From 35.5% in 2010 to 93.5% in 2024 -- a near-tripling</li>
+</ul>
+<p>The Missouri side's collapse from the low 40s to over 90% happened rapidly -- mostly between 2020 and 2023. This acceleration coincides with post-COVID case volume recovery and suggests systemic issues beyond individual case quality.</p>
+</div>
+<div class="card">
+<h3>Estimated 1328(f) Violations</h3>
+<p>Across both districts, an estimated 4,555 cases may involve potential 1328(f) eligibility violations -- filings where the debtor had a prior discharge within the statutory time bar and could never have received a new discharge. These cases consume court resources and cost consumers time and money for a legally impossible outcome.</p>
+</div>
+</div></section>
+
+<section><div class="container">
 <h2>Frequently Asked Questions</h2>
-<div class="faq"><h3>What is the dismissal rate in Kansas City?</h3><p>W.D. Mo.: 43.5% across 46,548 cases (2008-2024).</p></div>
-<div class="faq"><h3>Can I check if I can file bankruptcy again?</h3><p>Yes -- use the free screener at <a href="https://1328f.com" style="color:#58a6ff">1328f.com</a>.</p></div>
-<div class="cta"><h2 style="border:none;margin:0 0 16px">Free Tools</h2>
-<a href="https://1328f.com">Discharge Screener</a>
-<a href="https://openbankruptcyproject.org">Research Platform</a>
-<a href="https://chapter7vs13.org">Chapter 7 vs 13</a></div>
-<div class="network"><h2>Open Bankruptcy Project Network</h2><ul>
-<li><a href="https://openbankruptcyproject.org">openbankruptcyproject.org</a></li>
-<li><a href="https://1328f.com">1328f.com</a></li>
-<li><a href="https://chapter7vs13.org">chapter7vs13.org</a></li>
-<li><a href="https://meanstest.org">meanstest.org</a></li>
-<li><a href="https://automaticstay.org">automaticstay.org</a></li>
-<li><a href="https://dismissalrate.org">dismissalrate.org</a></li>
-</ul></div></div>
-<div class="footer">
-<p>Part of the <a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a> network</p>
-<p>Data: Federal Judicial Center (2008-2024) | 501(c)(3) pending (EIN 41-5159631)</p>
-</div></body></html>
+<details class="faq-item"><summary>What is the Chapter 13 dismissal rate in Kansas City?</summary><div class="answer"><p>Kansas City straddles two federal districts. The Western District of Missouri has a 43.5% overall dismissal rate that hit 93.5% in 2024. The District of Kansas has a healthier 31.4% rate.</p></div></details>
+<details class="faq-item"><summary>Why is the Missouri side worse than Kansas?</summary><div class="answer"><p>W.D. Mo. dismissal rates have tripled from 35.5% in 2010 to 93.5% in 2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality.</p></div></details>
+<details class="faq-item"><summary>How many Chapter 13 cases are filed in Kansas City?</summary><div class="answer"><p>Between 2008 and 2024, W.D. Mo. saw 46,548 Chapter 13 filings and D. Kansas saw 44,949, for a combined 91,497 cases across the metro area.</p></div></details>
+<details class="faq-item"><summary>What is a 1328(f) violation?</summary><div class="answer"><p>Under 11 U.S.C. section 1328(f), debtors who received a prior discharge within specific timeframes cannot receive another discharge. An estimated 2,134 W.D. Mo. cases and 2,421 D. Kansas cases may involve potential violations.</p></div></details>
+<details class="faq-item"><summary>Should I file on the Kansas or Missouri side?</summary><div class="answer"><p>Bankruptcy venue is determined by where you live, not by choice. However, the data underscores the importance of strong legal representation, especially on the Missouri side. Consult a qualified attorney who practices in your jurisdiction.</p></div></details>
+</div></section>
+
+<div class="container">
+<div style="text-align:center;padding:40px 0">
+<h2>Check Your Eligibility</h2>
+<p>Use the free 1328(f) screener to check whether a prior discharge affects your eligibility.</p>
+<a href="https://1328f.com" class="cta">Free Discharge Screener</a>
+</div>
+
+<div class="network">
+<h3>Open Bankruptcy Project Network</h3>
+<div class="network-links">
+<a href="https://openbankruptcyproject.org">OBP Home</a>
+<a href="https://1328f.com">1328(f) Screener</a>
+<a href="https://bankruptcynewyork.org">New York</a>
+<a href="https://bankruptcychicago.org">Chicago</a>
+<a href="https://bankruptcyatlanta.org">Atlanta</a>
+<a href="https://bankruptcymill.com">Bankruptcy Mills</a>
+<a href="https://chapter7vs13.org">Ch. 7 vs 13</a>
+<a href="https://bankruptcydismissed.com">Dismissed?</a>
+<a href="https://howmuchdoesbankruptcycost.com">Cost</a>
+<a href="https://filebankruptcyagain.com">File Again?</a>
+</div>
+</div>
+</div>
+
+<footer><div class="container">
+<p>An <a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a> resource</p>
+<p>Data sourced from the Federal Judicial Center Integrated Database (2008--2024).</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+<p>&copy; 2026 Open Bankruptcy Project. <a href="https://github.com/openbankruptcyproject">GitHub</a></p>
+</div></footer>
+</body>
+</html>
