@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kansas City Bankruptcy Statistics -- Chapter 13 Dismissal Rates | Open Bankruptcy Project</title>
-<meta name="description" content="Kansas City straddles two federal districts with drastically different Chapter 13 outcomes. W.D. Mo. hit 93.5% dismissal in 2024. Data from 91,497 cases.">
+<meta name="description" content="Kansas City straddles two federal districts. W.D. Mo. has a 40.4% Chapter 13 dismissal rate (2008-2019 mature data). Data from 91,497 cases. Open Bankruptcy Project.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://bankruptcykansascity.org/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSBPNV4NKL"></script>
@@ -14,8 +14,8 @@
   "@context":"https://schema.org",
   "@type":"FAQPage",
   "mainEntity":[
-    {"@type":"Question","name":"What is the Chapter 13 dismissal rate in Kansas City?","acceptedAnswer":{"@type":"Answer","text":"Kansas City straddles two federal districts. The Western District of Missouri has a 43.5% overall dismissal rate that hit 93.5% in 2024. The District of Kansas has a healthier 31.4% rate."}},
-    {"@type":"Question","name":"Why is the Missouri side worse than Kansas?","acceptedAnswer":{"@type":"Answer","text":"W.D. Mo. dismissal rates have tripled from 35.5% in 2010 to 93.5% in 2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality."}},
+    {"@type":"Question","name":"What is the Chapter 13 dismissal rate in Kansas City?","acceptedAnswer":{"@type":"Answer","text":"Kansas City straddles two federal districts. The Western District of Missouri has a 40.4% dismissal rate based on mature 2008-2019 data. The District of Kansas has a healthier 31.4% rate. Recent years show higher preliminary rates because successful 3-5 year plans are still active."}},
+    {"@type":"Question","name":"Why is the Missouri side worse than Kansas?","acceptedAnswer":{"@type":"Answer","text":"W.D. Mo. dismissal rates have risen from 35.5% in 2010 to preliminary rates above 90% in 2023-2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality."}},
     {"@type":"Question","name":"How many Chapter 13 cases are filed in Kansas City?","acceptedAnswer":{"@type":"Answer","text":"Between 2008 and 2024, W.D. Mo. saw 46,548 Chapter 13 filings and D. Kansas saw 44,949, for a combined 91,497 cases across the metro area."}},
     {"@type":"Question","name":"What is a 1328(f) violation?","acceptedAnswer":{"@type":"Answer","text":"Under 11 U.S.C. section 1328(f), debtors who received a prior discharge within specific timeframes cannot receive another discharge. An estimated 2,134 W.D. Mo. cases and 2,421 D. Kansas cases may involve potential violations."}}
   ]
@@ -82,8 +82,8 @@ ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
 
 <div class="container">
 <div class="stats-row">
-<div class="stat-card danger"><div class="number">43.5%</div><div class="label">WDMO Overall Rate</div></div>
-<div class="stat-card"><div class="number">46,548</div><div class="label">WDMO Cases Filed</div></div>
+<div class="stat-card danger"><div class="number">40.4%</div><div class="label">WDMO Rate (2008-2019)</div></div>
+<div class="stat-card"><div class="number">46,548</div><div class="label">WDMO Cases Filed (2008-2024)</div></div>
 <div class="stat-card"><div class="number">31.4%</div><div class="label">D. Kansas Rate</div></div>
 <div class="stat-card"><div class="number">44,949</div><div class="label">D. Kansas Cases</div></div>
 <div class="stat-card danger"><div class="number">93.5%</div><div class="label">WDMO 2024 Rate</div></div>
@@ -145,24 +145,27 @@ ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
 <!-- 2019: 39.1% -->
 <rect x="562" y="182.25" width="40" height="97.75" rx="3" fill="#58a6ff" opacity="0.85"><title>2019: 39.1%</title></rect>
 <text x="582" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2019</text>
-<!-- 2020: 42.4% -->
-<rect x="608" y="174" width="40" height="106" rx="3" fill="#58a6ff" opacity="0.85"><title>2020: 42.4%</title></rect>
-<text x="628" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2020</text>
-<!-- 2021: 57.1% -->
-<rect x="654" y="137.25" width="40" height="142.75" rx="3" fill="#d29922" opacity="0.85"><title>2021: 57.1%</title></rect>
-<text x="674" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2021</text>
-<!-- 2022: 78.8% -->
-<rect x="700" y="83" width="40" height="197" rx="3" fill="#f85149" opacity="0.9"><title>2022: 78.8%</title></rect>
-<text x="720" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2022</text>
-<!-- 2023: 92.3% -->
-<rect x="746" y="49.25" width="40" height="230.75" rx="3" fill="#f85149" opacity="0.9"><title>2023: 92.3%</title></rect>
-<text x="766" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2023</text>
-<!-- 2024: 93.5% -->
-<rect x="792" y="46.25" width="40" height="233.75" rx="3" fill="#f85149" opacity="0.9"><title>2024: 93.5%</title></rect>
-<text x="812" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2024</text>
+<!-- 2020: 42.4% (preliminary) -->
+<rect x="608" y="174" width="40" height="106" rx="3" fill="#d29922" opacity="0.85"><title>2020: 42.4%*</title></rect>
+<text x="628" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2020*</text>
+<!-- 2021: 57.1% (preliminary) -->
+<rect x="654" y="137.25" width="40" height="142.75" rx="3" fill="#d29922" opacity="0.85"><title>2021: 57.1%*</title></rect>
+<text x="674" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2021*</text>
+<!-- 2022: 78.8% (preliminary) -->
+<rect x="700" y="83" width="40" height="197" rx="3" fill="#d29922" opacity="0.85"><title>2022: 78.8%*</title></rect>
+<text x="720" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2022*</text>
+<!-- 2023: 92.3% (preliminary) -->
+<rect x="746" y="49.25" width="40" height="230.75" rx="3" fill="#d29922" opacity="0.85"><title>2023: 92.3%*</title></rect>
+<text x="766" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2023*</text>
+<!-- 2024: 93.5% (preliminary) -->
+<rect x="792" y="46.25" width="40" height="233.75" rx="3" fill="#d29922" opacity="0.85"><title>2024: 93.5%*</title></rect>
+<text x="812" y="296" fill="#8b949e" font-size="10" text-anchor="middle">2024*</text>
 </svg>
 </div>
 <p style="color:#8b949e;font-size:0.85rem;margin-top:8px">Source: Federal Judicial Center Integrated Database, 2008--2024. Analysis by Open Bankruptcy Project.</p>
+<div style="background:#1c1f26;border:1px solid #d29922;border-radius:8px;padding:16px 20px;margin:20px 0;color:#d29922;font-size:14px">
+<strong>Methodology note:</strong> Chapter 13 plans run 3-5 years. Cases filed 2020-2024 are preliminary -- successful plans are still active, so only early dismissals are reflected. The headline rate uses 2008-2019 data where most cases have reached final disposition. Source: Federal Judicial Center Integrated Database.
+</div>
 </div></section>
 
 <section><div class="container">
@@ -170,7 +173,7 @@ ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
 <div class="district-grid">
 <div class="district-card">
 <h3>Western District of Missouri</h3>
-<div class="rate">43.5%</div>
+<div class="rate">40.4%</div>
 <p>46,548 cases filed -- 16,844 dismissed, 21,878 discharged. 28.6% prior filer rate. Only 3.8% pro se. An estimated 2,134 potential 1328(f) violations. The 2024 rate of 93.5% represents a near-total collapse.</p>
 <div class="meta">Kansas City MO (400 E. 9th St)</div>
 </div>
@@ -189,7 +192,7 @@ ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
 <h3>A Tale of Two State Lines</h3>
 <p>Kansas City consumers on opposite sides of State Line Road face dramatically different bankruptcy outcomes. The data reveals a troubling divergence:</p>
 <ul>
-<li><strong>Missouri side:</strong> 43.5% overall dismissal, surging to 93.5% in 2024</li>
+<li><strong>Missouri side:</strong> 40.4% overall dismissal, surging to 93.5% in 2024</li>
 <li><strong>Kansas side:</strong> 31.4% overall dismissal, relatively stable</li>
 <li><strong>Missouri prior filer rate:</strong> 28.6% -- meaning nearly 1 in 3 has failed before</li>
 <li><strong>Missouri trend:</strong> From 35.5% in 2010 to 93.5% in 2024 -- a near-tripling</li>
@@ -204,8 +207,8 @@ ul{margin:12px 0 12px 24px}li{margin-bottom:6px}
 
 <section><div class="container">
 <h2>Frequently Asked Questions</h2>
-<details class="faq-item"><summary>What is the Chapter 13 dismissal rate in Kansas City?</summary><div class="answer"><p>Kansas City straddles two federal districts. The Western District of Missouri has a 43.5% overall dismissal rate that hit 93.5% in 2024. The District of Kansas has a healthier 31.4% rate.</p></div></details>
-<details class="faq-item"><summary>Why is the Missouri side worse than Kansas?</summary><div class="answer"><p>W.D. Mo. dismissal rates have tripled from 35.5% in 2010 to 93.5% in 2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality.</p></div></details>
+<details class="faq-item"><summary>What is the Chapter 13 dismissal rate in Kansas City?</summary><div class="answer"><p>Kansas City straddles two federal districts. The Western District of Missouri has a 40.4% dismissal rate based on mature 2008-2019 data. The District of Kansas has a healthier 31.4% rate. Recent years show higher preliminary rates because successful 3-5 year plans are still active.</p></div></details>
+<details class="faq-item"><summary>Why is the Missouri side worse than Kansas?</summary><div class="answer"><p>W.D. Mo. dismissal rates have risen from 35.5% in 2010 to preliminary rates above 90% in 2023-2024. The District of Kansas has remained more stable. Contributing factors include differences in local rules, trustee practices, and attorney quality.</p></div></details>
 <details class="faq-item"><summary>How many Chapter 13 cases are filed in Kansas City?</summary><div class="answer"><p>Between 2008 and 2024, W.D. Mo. saw 46,548 Chapter 13 filings and D. Kansas saw 44,949, for a combined 91,497 cases across the metro area.</p></div></details>
 <details class="faq-item"><summary>What is a 1328(f) violation?</summary><div class="answer"><p>Under 11 U.S.C. section 1328(f), debtors who received a prior discharge within specific timeframes cannot receive another discharge. An estimated 2,134 W.D. Mo. cases and 2,421 D. Kansas cases may involve potential violations.</p></div></details>
 <details class="faq-item"><summary>Should I file on the Kansas or Missouri side?</summary><div class="answer"><p>Bankruptcy venue is determined by where you live, not by choice. However, the data underscores the importance of strong legal representation, especially on the Missouri side. Consult a qualified attorney who practices in your jurisdiction.</p></div></details>
