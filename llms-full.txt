@@ -6,13 +6,15 @@ Part of the Open Bankruptcy Project (openbankruptcyproject.org).
 
 ---
 
-## Kansas City Bankruptcy Statistics -- Chapter 13 Dismissal Rates [2026]
+## Kansas City Bankruptcy Statistics - Chapter 13 Dismissal Rates [2026]
 Source: https://bankruptcykansascity.org/
 
-Bankruptcy Kansas City
-HomeStatisticsWhat to KnowResourcesOBP
+Skip to main content
 
-Kansas City Bankruptcy Statistics -- Chapter 13 Dismissal Data
+Bankruptcy Kansas City
+HomeStatisticsWhat to KnowResourcesOBP Rule 9037 PII Scanner
+
+Kansas City Bankruptcy Statistics - Chapter 13 Dismissal Data
 
 Kansas City straddles two federal districts with notably different Chapter 13 outcomes. The data below compares the Western District of Missouri and the District of Kansas side by side.
 
@@ -44,11 +46,11 @@ Est. 1328(f) Violations
 
 WDMO Dismissal Rate by Year (2008--2024)
 
-Chapter 13 Dismissal Rate -- Western District of Missouri
+Chapter 13 Dismissal Rate - Western District of Missouri
 
 Source: Federal Judicial Center Integrated Database, 2008--2024. Analysis by Open Bankruptcy Project.
 
-Methodology note: Chapter 13 plans run 3-5 years. Cases filed 2020-2024 are preliminary -- successful plans are still active, so only early dismissals are reflected. The headline rate uses 2008-2019 data where most cases have reached final disposition. Source: Federal Judicial Center Integrated Database.
+Methodology note: Chapter 13 plans run 3-5 years. Cases filed 2020-2024 are preliminary - successful plans are still active, so only early dismissals are reflected. The headline rate uses 2008-2019 data where most cases have reached final disposition. Source: Federal Judicial Center Integrated Database.
 
 Two Districts, Two Outcomes
 
@@ -56,7 +58,7 @@ Western District of Missouri
 
 40.4%
 
-46,548 cases filed -- 16,844 dismissed, 21,878 discharged. 28.6% prior filer rate. 3.8% pro se. An estimated 2,134 potential 1328(f) violations. Preliminary 2024 rate: 93.5% (cases still maturing).
+46,548 cases filed - 16,844 dismissed, 21,878 discharged. 28.6% prior filer rate. 3.8% pro se. An estimated 2,134 potential 1328(f) violations. Preliminary 2024 rate: 93.5% (cases still maturing).
 
 Kansas City MO (400 E. 9th St)
 
@@ -64,7 +66,7 @@ District of Kansas
 
 31.4%
 
-44,949 cases filed -- 11,748 dismissed, 25,615 discharged. 26.1% prior filer rate. 1.6% pro se. An estimated 2,421 potential 1328(f) violations.
+44,949 cases filed - 11,748 dismissed, 25,615 discharged. 26.1% prior filer rate. 1.6% pro se. An estimated 2,421 potential 1328(f) violations.
 
 Kansas City KS (500 State Ave)
 
@@ -86,7 +88,7 @@ The Missouri side's rate increased significantly between 2020 and 2023. However,
 
 Estimated 1328(f) Violations
 
-Across both districts, an estimated 4,555 cases may involve potential 1328(f) eligibility issues -- filings where the debtor had a prior discharge within the statutory time bar. In these cases, a new discharge may not be available under current law.
+Across both districts, an estimated 4,555 cases may involve potential 1328(f) eligibility issues - filings where the debtor had a prior discharge within the statutory time bar. In these cases, a new discharge may not be available under current law.
 
 Frequently Asked Questions
 
@@ -151,6 +153,10 @@ Data sourced from the Federal Judicial Center Integrated Database (2008--2024).
 This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.
 
 © 2026 Open Bankruptcy Project. GitHub
+
+Privacy Policy
+
+Cited by the Federal Rules Committee (26-BK-3)
 
 Have a Question?
 
@@ -238,13 +244,153 @@ Open Bankruptcy Project -- openbankruptcyproject.org
 
 ---
 
-## WDMO Chapter 13 Statistics -- Year-by-Year Data | Bankruptcy Kansas City
+## Kansas City Bankruptcy Resources - Courts, Legal Aid, Free Tools | Bankruptcy Kansas City
+Source: https://bankruptcykansascity.org/resources.html
+
+Bankruptcy Kansas City
+HomeStatisticsWhat to KnowResourcesOBP
+
+Home›Kansas City Bankruptcy Resources - Courts, Legal Aid, Free Tools | Bankruptcy Kansas City›Kansas City Bankruptcy Resources
+
+Kansas City Bankruptcy Resources
+
+Courts, legal aid organizations, free tools, and research resources for Kansas City area bankruptcy filers.
+
+Federal Bankruptcy Courts
+
+Western District of Missouri
+
+mow.uscourts.gov
+
+Kansas City Division: 400 E. 9th Street, Kansas City, MO 64106. Also serves Springfield, Jefferson City, and St. Joseph divisions.
+
+District of Kansas
+
+ksb.uscourts.gov
+
+Kansas City Division: 500 State Avenue, Kansas City, KS 66101. Also serves Topeka and Wichita divisions.
+
+Legal Aid and Pro Bono Services
+
+Legal Aid of Western Missouri
+
+lawmo.org
+
+Free civil legal services for low-income residents in western Missouri, including bankruptcy assistance. Multiple offices in the KC metro.
+
+Kansas Legal Services
+
+kansaslegalservices.org
+
+Free legal help for Kansans who qualify financially. Offices in Kansas City KS, Topeka, and Wichita.
+
+Kansas City Metropolitan Bar Association - Lawyer Referral Service
+
+kcmba.org
+
+Referral service connecting consumers with attorneys. Initial consultations available at reduced cost.
+
+UMKC School of Law - Legal Clinics
+
+law.umkc.edu
+
+Law school clinics providing supervised legal assistance in various practice areas.
+
+Free Screening and Research Tools
+
+1328(f) Discharge Eligibility Screener
+
+1328f.com
+
+Free tool to check whether a prior discharge creates a time bar under 11 U.S.C. section 1328(f). Runs entirely in your browser - no data collected.
+
+Open Bankruptcy Project
+
+openbankruptcyproject.org
+
+National research platform analyzing Chapter 13 outcomes across all 94 federal districts.
+
+1328(f) Research Platform
+
+1328f.org
+
+In-depth research on repeat filing patterns and 1328(f) eligibility violations.
+
+Federal Resources
+
+U.S. Trustee Program - Region 13
+
+justice.gov/ust
+
+Oversees bankruptcy case administration in W.D. Mo. File complaints about attorney or trustee misconduct.
+
+PACER - Public Access to Court Electronic Records
+
+pacer.uscourts.gov
+
+Access federal court records including bankruptcy dockets. Fee-based ($0.10/page, capped at $3.00/document).
+
+Federal Judicial Center - Integrated Database
+
+fjc.gov/research/idb
+
+The source database for all statistics on this site.
+
+State Bar Associations
+
+Missouri Bar - Attorney Complaint
+
+mobar.org
+
+File complaints about Missouri-licensed attorneys through the Office of Chief Disciplinary Counsel.
+
+Kansas Disciplinary Administrator
+
+kscourts.org
+
+File complaints about Kansas-licensed attorneys through the Kansas Disciplinary Administrator.
+
+More from the OBP Network
+
+Chapter 7 vs. Chapter 13
+
+chapter7vs13.org
+
+Side-by-side comparison to help understand which chapter may be appropriate.
+
+Bankruptcy Dismissed - What Now?
+
+bankruptcydismissed.com
+
+Information for people whose case was dismissed - next steps and options.
+
+Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.
+
+An Open Bankruptcy Project resource
+
+This is general information, not legal advice. Consult a qualified attorney.
+
+© 2026 Open Bankruptcy Project
+
+You May Also Find Helpful
+
+Bankruptcy Means Test by State -- bankruptcymeanstest.org
+
+Free Means Test Calculator -- meanstest.org
+
+1099-C Cancellation of Debt Tax Guide -- 1099cdebt.com
+
+---
+
+## WDMO Chapter 13 Statistics - Year-by-Year Data | Bankruptcy Kansas City
 Source: https://bankruptcykansascity.org/statistics.html
 
 Bankruptcy Kansas City
 HomeStatisticsWhat to KnowResourcesOBP
 
-Kansas City Chapter 13 Statistics -- Complete Data
+Home›WDMO Chapter 13 Statistics - Year-by-Year Data | Bankruptcy Kansas City›Kansas City Chapter 13 Statistics - Complete Data
+
+Kansas City Chapter 13 Statistics - Complete Data
 
 Year-by-year breakdown of Chapter 13 bankruptcy outcomes in the Western District of Missouri and District of Kansas. All data sourced from the Federal Judicial Center Integrated Database.
 
@@ -272,7 +418,7 @@ WDMO 2024 Rate
 
 Combined Est. Violations
 
-Year-by-Year Breakdown -- Western District of Missouri
+Year-by-Year Breakdown - Western District of Missouri
 
 YearCases FiledDismissal RatePrior Filer RateTrend
 
@@ -310,9 +456,9 @@ YearCases FiledDismissal RatePrior Filer RateTrend
 
 2024*2,00593.5%27.4%+1.2
 
-* Preliminary -- Chapter 13 plans run 3-5 years, so successful plans filed in these years are still active. Only early dismissals are reflected.
+* Preliminary - Chapter 13 plans run 3-5 years, so successful plans filed in these years are still active. Only early dismissals are reflected.
 
-Methodology note: Chapter 13 plans run 3-5 years. Cases filed 2020-2024 are preliminary -- successful plans are still active, so only early dismissals are reflected. The headline rate uses 2008-2019 data where most cases have reached final disposition. Source: Federal Judicial Center Integrated Database.
+Methodology note: Chapter 13 plans run 3-5 years. Cases filed 2020-2024 are preliminary - successful plans are still active, so only early dismissals are reflected. The headline rate uses 2008-2019 data where most cases have reached final disposition. Source: Federal Judicial Center Integrated Database.
 
 Rate Trend: 2020-2024
 
@@ -342,7 +488,7 @@ D. Kansas has maintained relatively stable outcomes throughout the same period:
 
 Overall dismissal rate: 31.4%
 
-44,949 total cases -- similar volume to WDMO
+44,949 total cases - similar volume to WDMO
 
 25,615 discharges (57.0% success rate)
 
@@ -380,15 +526,17 @@ Student Loans in Bankruptcy -- bankruptcystudentloans.org
 
 ---
 
-## What to Know About Chapter 13 in Kansas City -- Consumer Guide | Bankruptcy Kansas City
+## What to Know About Chapter 13 in Kansas City - Consumer Guide | Bankruptcy Kansas City
 Source: https://bankruptcykansascity.org/what-to-know.html
 
 Bankruptcy Kansas City
 HomeStatisticsWhat to KnowResourcesOBP
 
+Home›What to Know About Chapter 13 in Kansas City - Consumer Guide | Bankruptcy Kansas City›What Kansas City Consumers Should Know About Chapter 13
+
 What Kansas City Consumers Should Know About Chapter 13
 
-If you are considering Chapter 13 bankruptcy in the Kansas City metro -- or have already been dismissed -- this page explains what the data means for you.
+If you are considering Chapter 13 bankruptcy in the Kansas City metro - or have already been dismissed - this page explains what the data means for you.
 
 Missouri Side: Rising Preliminary Rates
 
@@ -398,15 +546,15 @@ What Does "Dismissed" Mean?
 
 When a Chapter 13 case is dismissed, the repayment plan failed and the case was thrown out. You do not receive a discharge of your debts. Common causes include:
 
-Missed plan payments -- failing to make required monthly payments to the trustee
+Missed plan payments - failing to make required monthly payments to the trustee
 
-Failure to file required documents -- tax returns, pay stubs, certificates
+Failure to file required documents - tax returns, pay stubs, certificates
 
-Plan not confirmable -- the proposed plan does not meet legal requirements
+Plan not confirmable - the proposed plan does not meet legal requirements
 
-Ineligibility -- the debtor was never eligible (including 1328(f) time bars)
+Ineligibility - the debtor was never eligible (including 1328(f) time bars)
 
-Voluntary dismissal -- the debtor requests dismissal
+Voluntary dismissal - the debtor requests dismissal
 
 Dismissal means creditors can resume collection. You have spent time and money with no debt relief.
 
@@ -418,7 +566,7 @@ Missouri side (WDMO): 93.5% preliminary dismissal rate in 2024 (cases still matu
 
 Kansas side (D. Kan.): 31.4% overall dismissal rate (2008-2019 mature data)
 
-You file in the district where you live -- you cannot choose. But understanding your district's track record is essential before committing to a 3-5 year plan.
+You file in the district where you live - you cannot choose. But understanding your district's track record is essential before committing to a 3-5 year plan.
 
 Questions to Ask an Attorney Before Filing
 
@@ -450,31 +598,31 @@ Red Flags to Watch For
 
 Warning Signs
 
-No eligibility screening -- no check of prior filing history before accepting your case
+No eligibility screening - no check of prior filing history before accepting your case
 
-Limited attorney contact -- you do not meet the attorney who signs your petition
+Limited attorney contact - you do not meet the attorney who signs your petition
 
-No discussion of Chapter 7 -- Chapter 13 presented as the only option
+No discussion of Chapter 7 - Chapter 13 presented as the only option
 
-No explanation of the district's dismissal rate -- your attorney should be transparent about the environment
+No explanation of the district's dismissal rate - your attorney should be transparent about the environment
 
-Unreachable after filing -- once the case is filed, you cannot get responses
+Unreachable after filing - once the case is filed, you cannot get responses
 
-Multiple prior dismissals -- if you have failed before, the same firm and approach is unlikely to work
+Multiple prior dismissals - if you have failed before, the same firm and approach is unlikely to work
 
 If You Have Been Dismissed
 
-Review the dismissal order -- understand the specific reason your case failed
+Review the dismissal order - understand the specific reason your case failed
 
-Check time bars -- sections 109(g) and 362(c) may limit your automatic stay if you refile
+Check time bars - sections 109(g) and 362(c) may limit your automatic stay if you refile
 
-Evaluate your attorney -- did they file documents on time? Communicate with you? Attend hearings?
+Evaluate your attorney - did they file documents on time? Communicate with you? Attend hearings?
 
-Consider alternatives -- Chapter 7, debt negotiation, or waiting may be better than refiling
+Consider alternatives - Chapter 7, debt negotiation, or waiting may be better than refiling
 
-Get a second opinion -- if the same firm wants to refile, consult a different attorney first
+Get a second opinion - if the same firm wants to refile, consult a different attorney first
 
-Check Your Eligibility -- Free Screener
+Check Your Eligibility - Free Screener
 
 Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.
 
@@ -496,136 +644,72 @@ Section 727(a)(8) Discharge Waiting Period -- 727a8.com
 
 ---
 
-## Kansas City Bankruptcy Resources -- Courts, Legal Aid, Free Tools | Bankruptcy Kansas City
-Source: https://bankruptcykansascity.org/resources.html
+## Privacy Policy - bankruptcykansascity.org
+Source: https://bankruptcykansascity.org/privacy.html
 
-Bankruptcy Kansas City
-HomeStatisticsWhat to KnowResourcesOBP
+bankruptcykansascity.org
 
-Kansas City Bankruptcy Resources
+Home
+Privacy
 
-Courts, legal aid organizations, free tools, and research resources for Kansas City area bankruptcy filers.
+Privacy Policy
 
-Federal Bankruptcy Courts
+How we handle your data. Short version: we don't sell it, share it, or use it for advertising.
 
-Western District of Missouri
+Data We Collect
 
-mow.uscourts.gov
+We use Google Analytics (GA4) to measure aggregate site traffic. This includes page views, session duration, approximate geographic region (country and city level), and device type. We do not collect names, email addresses, or personally identifiable information through analytics.
 
-Kansas City Division: 400 E. 9th Street, Kansas City, MO 64106. Also serves Springfield, Jefferson City, and St. Joseph divisions.
+Aggregate event data from Google Analytics is also exported to Google BigQuery for research use. The BigQuery data is used only for internal trajectory analysis and network health reports, is not shared with third parties, and is not used for advertising.
 
-District of Kansas
+What We Don't Do
 
-ksb.uscourts.gov
+We do not sell data. We do not run advertising. We do not collect financial information. We do not use retargeting. We do not share any user data with attorneys, law firms, creditors, debt collectors, or legal service providers.
 
-Kansas City Division: 500 State Avenue, Kansas City, KS 66101. Also serves Topeka and Wichita divisions.
+Specifically, we do not enable Google Signals, Google Ads integration, User-ID collection, or any cross-device tracking feature in Google Analytics. GA4 operates in aggregate-traffic-measurement mode only on this site.
 
-Legal Aid and Pro Bono Services
+Cookies
 
-Legal Aid of Western Missouri
+We use only first-party cookies set by Google Analytics for aggregate traffic measurement. We do not use advertising cookies, tracking pixels, or third-party analytics cookies.
 
-lawmo.org
+Third-Party Services
 
-Free civil legal services for low-income residents in western Missouri, including bankruptcy assistance. Multiple offices in the KC metro.
+Google Analytics (GA4) - aggregate traffic measurement
 
-Kansas Legal Services
+Google BigQuery - aggregate event data warehouse for research use only; not shared, not used for advertising
 
-kansaslegalservices.org
+Google Search Console - search query measurement (clicks, impressions, our own page rankings)
 
-Free legal help for Kansans who qualify financially. Offices in Kansas City KS, Topeka, and Wichita.
+GitHub Pages - hosting
 
-Kansas City Metropolitan Bar Association -- Lawyer Referral Service
+Contact Forms & Email
 
-kcmba.org
+This site may link to contact forms or email addresses operated by the Open Bankruptcy Project. Any data you submit through those channels is handled under the Open Bankruptcy Project master privacy policy, which governs all sites in this network.
 
-Referral service connecting consumers with attorneys. Initial consultations available at reduced cost.
+Children's Privacy
 
-UMKC School of Law -- Legal Clinics
+This site is not directed at children under 13. We do not knowingly collect information from children.
 
-law.umkc.edu
+Data Retention
 
-Law school clinics providing supervised legal assistance in various practice areas.
+Analytics data is retained for 14 months per Google's standard retention settings. After that window, individual event data is automatically deleted by Google; aggregate report metrics remain available.
 
-Free Screening and Research Tools
+Your Rights
 
-1328(f) Discharge Eligibility Screener
+You may request deletion of any personal data we hold by contacting info@openbankruptcyproject.org. California residents have additional rights under CCPA. EU residents have additional rights under GDPR. All such requests are handled by the Open Bankruptcy Project.
 
-1328f.com
+Network Policy
 
-Free tool to check whether a prior discharge creates a time bar under 11 U.S.C. section 1328(f). Runs entirely in your browser -- no data collected.
+This site is part of the Bankruptcy Transparency Network operated by the Open Bankruptcy Project, a 501(c)(3) nonprofit (determination pending). The same privacy standards apply across every site in the network. The authoritative master policy is maintained at https://openbankruptcyproject.org/privacy.html.
 
-Open Bankruptcy Project
+Changes
 
-openbankruptcyproject.org
+We may update this policy from time to time. Changes are reflected on the master policy first and then mirrored across all network sites. Check the master policy for the most current version.
 
-National research platform analyzing Chapter 13 outcomes across all 94 federal districts.
+Effective: March 30, 2026  |  Updated: April 11, 2026
 
-1328(f) Research Platform
+Home  ·  Privacy  ·  Open Bankruptcy Project
 
-1328f.org
+Part of the Bankruptcy Transparency Network. Educational information only - not legal advice.
 
-In-depth research on repeat filing patterns and 1328(f) eligibility violations.
-
-Federal Resources
-
-U.S. Trustee Program -- Region 13
-
-justice.gov/ust
-
-Oversees bankruptcy case administration in W.D. Mo. File complaints about attorney or trustee misconduct.
-
-PACER -- Public Access to Court Electronic Records
-
-pacer.uscourts.gov
-
-Access federal court records including bankruptcy dockets. Fee-based ($0.10/page, capped at $3.00/document).
-
-Federal Judicial Center -- Integrated Database
-
-fjc.gov/research/idb
-
-The source database for all statistics on this site.
-
-State Bar Associations
-
-Missouri Bar -- Attorney Complaint
-
-mobar.org
-
-File complaints about Missouri-licensed attorneys through the Office of Chief Disciplinary Counsel.
-
-Kansas Disciplinary Administrator
-
-kscourts.org
-
-File complaints about Kansas-licensed attorneys through the Kansas Disciplinary Administrator.
-
-More from the OBP Network
-
-Chapter 7 vs. Chapter 13
-
-chapter7vs13.org
-
-Side-by-side comparison to help understand which chapter may be appropriate.
-
-Bankruptcy Dismissed -- What Now?
-
-bankruptcydismissed.com
-
-Information for people whose case was dismissed -- next steps and options.
-
-Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.
-
-An Open Bankruptcy Project resource
-
-This is general information, not legal advice. Consult a qualified attorney.
-
-© 2026 Open Bankruptcy Project
-
-You May Also Find Helpful
-
-Bankruptcy Means Test by State -- bankruptcymeanstest.org
-
-Free Means Test Calculator -- meanstest.org
-
-1099-C Cancellation of Debt Tax Guide -- 1099cdebt.com
+No ads. No affiliate links. No data sold. Supported by donations.
