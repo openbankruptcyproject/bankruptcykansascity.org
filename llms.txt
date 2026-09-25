@@ -1,5 +1,5 @@
 # Kansas City Bankruptcy Statistics - Chapter 13 Dismissal Rates [2026]
-> Last updated: 2026-05-01
+> Last updated: 2026-09-25
 
 > Kansas City bankruptcy statistics from 8M federal cases. Chapter 13 dismissal rates, filing trends, and outcome data analyzed by the Open Bankruptcy Project.
 
@@ -9,9 +9,10 @@ bankruptcykansascity.org is part of the Open Bankruptcy Project (openbankruptcyp
 ## Key Pages
 - Kansas City Bankruptcy Statistics - Chapter 13 Dismissal Rates: https://bankruptcykansascity.org/
 - Kansas City Bankruptcy Resources - Courts, Legal Aid, Free Tools | Bankruptcy Kansas City: https://bankruptcykansascity.org/resources.html
-- WDMO Chapter 13 Statistics - Year-by-Year Data | Bankruptcy Kansas City: https://bankruptcykansascity.org/statistics.html
-- What to Know About Chapter 13 in Kansas City - Consumer Guide | Bankruptcy Kansas City: https://bankruptcykansascity.org/what-to-know.html
+- Kansas City Chapter 13 Statistics [2026]: WDMO Year-by-Year Filing and Discharge Data: https://bankruptcykansascity.org/statistics.html
+- Kansas City Chapter 13 Consumer Guide [2026]: WDMO Local Rules, Trustees, and Plan Norms: https://bankruptcykansascity.org/what-to-know.html
 - Privacy Policy: https://bankruptcykansascity.org/privacy.html
+- About bankruptcykansascity.org: https://bankruptcykansascity.org/about.html
 
 ## Contact
 - Website: https://openbankruptcyproject.org
